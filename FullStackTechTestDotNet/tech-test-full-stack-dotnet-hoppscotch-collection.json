@@ -1,0 +1,195 @@
+[
+  {
+    "v": 5,
+    "name": "full stack tech test dotnet",
+    "requests": [
+      {
+        "v": "9",
+        "name": "GET /api/orders",
+        "method": "GET",
+        "endpoint": "http://localhost:5227/api/orders",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": null,
+          "body": null
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "9",
+        "name": "POST /api/orders",
+        "method": "POST",
+        "endpoint": "http://localhost:5227/api/orders",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": "application/json",
+          "body": "{\n  \"name\": \"My first order\",\n  \"customer\": {\n      \"name\": \"New customer\",\n      \"addressLine1\": \"1 Test St\",\n      \"town\": \"Test\",\n      \"postcode\": \"TT1 1TT\",\n    }\n}"
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "9",
+        "name": "PUT /api/orders/{id}",
+        "method": "PUT",
+        "endpoint": "http://localhost:5227/api/orders/{id}",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": "application/json",
+          "body": "{\n  \"name\": \"My first order 2\",\n  \"customerId\": 21,\n  \"customer\": {\n    \"id\": 21,\n    \"name\": \"New customer\",\n    \"addressLine1\": \"1 Test St\",\n    \"town\": \"Test\",\n    \"postcode\": \"TT1 1TT\",\n  }\n}"
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "9",
+        "name": "DELETE /api/orders/{id}",
+        "method": "DELETE",
+        "endpoint": "http://localhost:5227/api/orders/{id}",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": null,
+          "body": null
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "9",
+        "name": "GET /api/customers",
+        "method": "GET",
+        "endpoint": "http://localhost:5227/api/customers",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": null,
+          "body": null
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "9",
+        "name": "POST /api/customers",
+        "method": "POST",
+        "endpoint": "http://localhost:5227/api/customers",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": "application/json",
+          "body": "{\n  \"name\": \"test\",\n  \"addressLine1\": \"test\",\n  \"town\": \"test\",\n  \"postcode\": \"test\"\n}\n"
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "9",
+        "name": "PUT /api/customers/{id}",
+        "method": "PUT",
+        "endpoint": "http://localhost:5227/api/customers/21",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": "application/json",
+          "body": "{\n  \"id\": 21,\n  \"name\": \"test 2\",\n  \"addressLine1\": \"test 2\",\n  \"town\": \"test 2\",\n  \"postcode\": \"test 2\"\n}"
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "9",
+        "name": "DELETE /api/customers/{id}",
+        "method": "DELETE",
+        "endpoint": "http://localhost:5227/api/customers/21",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": null,
+          "body": null
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "9",
+        "name": "GET /api/customers/customer-ids-with-orders",
+        "method": "GET",
+        "endpoint": "http://localhost:5227/api/customers/customer-ids-with-orders",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": null,
+          "body": null
+        },
+        "requestVariables": [],
+        "responses": {}
+      }
+    ],
+    "auth": {
+      "authType": "none",
+      "authActive": true
+    },
+    "headers": [],
+    "_ref_id": "coll_m42tk6m7_cb3944c2-84ec-415b-a534-92caee28284f",
+    "folders": []
+  }
+]
